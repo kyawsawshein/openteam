@@ -89,4 +89,6 @@ def aggregate(filelist_path: str, workers: int = 4, timeout: int = 2) -> List[Di
 # Solution : Get the file path list from the filepath file and get the parent path
 #            create the _scan_file function to read and count lines and words in the file
 #            execute using the ThreadPoolExecutor to execute the _scan_file
+# Taken time : 2 hr
+# Ref: ChatGPT
     # ─────────────────────────────────────────────────────────────────────────────

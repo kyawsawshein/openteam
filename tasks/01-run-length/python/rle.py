@@ -15,3 +15,4 @@ def encode(s: str) -> str:
     return "".join(f"{char}{sum(1 for _ in grp)}" for char, grp in groupby(s))
 
 # Solution : Using groupby to group the element with generator value and sum the value
+# Taken time : 20 minute

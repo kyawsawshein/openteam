@@ -21,3 +21,4 @@ def next_id():
         return value
 
 #Solution : Using the thread Lock the controle the thread lock and release
+# Taken time : 20 minutes
